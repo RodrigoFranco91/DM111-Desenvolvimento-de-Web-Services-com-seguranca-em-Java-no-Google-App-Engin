@@ -14,10 +14,10 @@ import java.util.logging.Logger;
 public class CronService {
 
     private static final Logger log = Logger.getLogger("CronService");
-
+ /*
     @GetMapping(path = "/testcron")
     public ResponseEntity<?> testCron() {
         log.severe("Cron message --- " + Calendar.getInstance().getTime());
         return new ResponseEntity<>(HttpStatus.OK);
-    }
+    }*/
 }
